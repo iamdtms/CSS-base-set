@@ -1,0 +1,25 @@
+@layer normalize, layout, theme, components, utilities, overrides;
+
+@import url("normalize.css") layer(normalize);
+
+@layer layout {
+  /* layout specific style rules (grid) */
+}
+
+@layer theme {
+  /* theme specific style rules (light/dark) */
+}
+
+@layer components {
+  /* components specific style rules (flex) */
+}
+
+@layer utilities {
+  /* utilities specific style rules (helpers) */
+}
+
+@layer overrides {
+  /* overrides specific style rules (defs) */
+}
+
+/* un-layered style rules (high prior) */
