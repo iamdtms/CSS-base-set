@@ -1,0 +1,15 @@
+:root {
+  --letter-spacing: 0;
+}
+
+html[data-theme="light"] {
+  --text-color: black;
+  --bg-color: white;
+  --highlight-color: var(--text-color);
+}
+
+html[data-theme="dark"] {
+  --text-color: white;
+  --bg-color: rgb(32, 33, 34);
+  --highlight-color: var(--text-color);
+}
