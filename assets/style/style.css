@@ -1,11 +1,11 @@
 @layer normalize, layout, theme, components, utilities, overrides;
 
-@import url("normalize.css") layer(normalize);
-@import url("layout.css") layer(layout);
-@import url("theme.css") layer(theme);
-@import url("components.css") layer(components);
-@import url("utilities.css") layer(utilities);
-@import url("overrides.css") layer(overrides);
+@import url("layers/normalize.css") layer(normalize);
+@import url("layers/layout.css") layer(layout);
+@import url("layers/theme.css") layer(theme);
+@import url("layers/components.css") layer(components);
+@import url("layers/utilities.css") layer(utilities);
+@import url("layers/utilities.css") layer(overrides);
 
 /* un-layered style rules (high prior) */
 
